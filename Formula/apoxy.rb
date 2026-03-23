@@ -28,6 +28,6 @@ class Apoxy < Formula
   end
 
   test do
-    system "#{bin}/apoxy", "--version"
+    system "#{bin}/apoxy", "version"
   end
 end
