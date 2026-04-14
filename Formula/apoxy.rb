@@ -3,25 +3,25 @@
 class Apoxy < Formula
   desc "Apoxy CLI - cloud-native API proxy"
   homepage "https://apoxy.dev"
-  version "0.19.1"
+  version "0.19.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/apoxy-dev/apoxy/releases/download/v0.19.1/apoxy_Darwin_arm64.tar.gz"
-      sha256 "659d7f834de672a934b005da110704ace622a088e1ad4e2a04a5d033013910d2"
+      url "https://github.com/apoxy-dev/apoxy/releases/download/v0.19.2/apoxy_Darwin_arm64.tar.gz"
+      sha256 "20e96e152d25662c60c76a9b699485ca03bd10e89b2a1cd0d60922f09f97e040"
     else
-      url "https://github.com/apoxy-dev/apoxy/releases/download/v0.19.1/apoxy_Darwin_x86_64.tar.gz"
-      sha256 "79124534589b64b9bd3d9c2d948ac7e3d7b45cfbdcbf5103a785749936b5feca"
+      url "https://github.com/apoxy-dev/apoxy/releases/download/v0.19.2/apoxy_Darwin_x86_64.tar.gz"
+      sha256 "64b184de19b81c446150ef72894d1f7a2a3fb5c815469182e1950cce541839f9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/apoxy-dev/apoxy/releases/download/v0.19.1/apoxy_Linux_arm64.tar.gz"
-      sha256 "bbb705b85cebea10d1134879024bfe9aca03358b5bbf2e0ff653376470ea8227"
+      url "https://github.com/apoxy-dev/apoxy/releases/download/v0.19.2/apoxy_Linux_arm64.tar.gz"
+      sha256 "b871fa159de59b375e6c441daadf080713bdaaebd4cef64d62e4337e94f18f9b"
     else
-      url "https://github.com/apoxy-dev/apoxy/releases/download/v0.19.1/apoxy_Linux_x86_64.tar.gz"
-      sha256 "90dbd9312d096063d0fb3bfb5a4b144d5359279b095a0335a5f8b03ade6b387c"
+      url "https://github.com/apoxy-dev/apoxy/releases/download/v0.19.2/apoxy_Linux_x86_64.tar.gz"
+      sha256 "6102354d946d315f3191125d6418d614b558501fb3c38d89d614e56900345330"
     end
   end
 
